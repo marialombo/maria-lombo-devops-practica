@@ -98,14 +98,14 @@ Después se puede probar:
 
 La imagen está publicada en Docker Hub:
 
-    docker pull TU_USUARIO_DOCKERHUB/tienda-online:1.0
-    docker run --name tienda -p 8000:8000 TU_USUARIO_DOCKERHUB/tienda-online:1.0
+    docker pull marialombo/tienda-online:1.0
+    docker run --name tienda -p 8000:8000 marialombo/tienda-online:1.0
 
 ### Publicar la imagen (push)
 
     docker login
-    docker tag tienda-online:1.0 TU_USUARIO_DOCKERHUB/tienda-online:1.0
-    docker push TU_USUARIO_DOCKERHUB/tienda-online:1.0
+    docker tag tienda-online:1.0 marialombo/tienda-online:1.0
+    docker push marialombo/tienda-online:1.0
 
 ## Flujo de trabajo con Git
 
